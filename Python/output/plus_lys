@@ -1,0 +1,246 @@
+Experiment ID: 13
+Target TF: RGT1
+Experiment Description: MB0479_EDS1_RGT1-plusLys-1-03.04.16-04.14.16-12
+T Value: 6.08683384464
+P Value: 1.21815303394e-09
+----------------------------------
+Experiment ID: 13
+Target TF: EDS1
+Experiment Description: MB0479_EDS1_RGT1-plusLys-1-03.04.16-04.14.16-12
+T Value: 6.03704226619
+P Value: 1.65735212091e-09
+----------------------------------
+Experiment ID: 15
+Target TF: RGT1
+Experiment Description: MB0479_EDS1_RGT1-plusLys-3-03.04.16-04.14.16-14
+T Value: 5.88933852283
+P Value: 4.07437134391e-09
+----------------------------------
+Experiment ID: 15
+Target TF: EDS1
+Experiment Description: MB0479_EDS1_RGT1-plusLys-3-03.04.16-04.14.16-14
+T Value: 5.811425775
+P Value: 6.49265631319e-09
+----------------------------------
+Experiment ID: 14
+Target TF: RGT1
+Experiment Description: MB0479_EDS1_RGT1-plusLys-2-03.04.16-04.14.16-13
+T Value: 5.70320502767
+P Value: 1.22797203953e-08
+----------------------------------
+Experiment ID: 14
+Target TF: EDS1
+Experiment Description: MB0479_EDS1_RGT1-plusLys-2-03.04.16-04.14.16-13
+T Value: 5.60868624467
+P Value: 2.12342612457e-08
+----------------------------------
+Experiment ID: 10
+Target TF: RGT1
+Experiment Description: MB0479_EDS1_RGT1-minusLys-1-03.04.16-04.14.16-32
+T Value: 5.06484944737
+P Value: 4.20113861792e-07
+----------------------------------
+Experiment ID: 30
+Target TF: RGT1
+Experiment Description: YKL038W-plusLys-1-03.04.16-04.14.16-3
+T Value: 5.04884358776
+P Value: 4.5669318336e-07
+----------------------------------
+Experiment ID: 10
+Target TF: EDS1
+Experiment Description: MB0479_EDS1_RGT1-minusLys-1-03.04.16-04.14.16-32
+T Value: 4.81130751096
+P Value: 1.53367275739e-06
+----------------------------------
+Experiment ID: 31
+Target TF: RGT1
+Experiment Description: YKL038W-plusLys-2-03.04.16-04.14.16-4
+T Value: 4.75410057312
+P Value: 2.03669361307e-06
+----------------------------------
+Experiment ID: 11
+Target TF: RGT1
+Experiment Description: MB0479_EDS1_RGT1-minusLys-2-03.04.16-04.14.16-33
+T Value: 4.73424001838
+P Value: 2.24582799041e-06
+----------------------------------
+Experiment ID: 32
+Target TF: RGT1
+Experiment Description: YKL038W-plusLys-3-03.04.16-04.14.16-5
+T Value: 4.5050458937
+P Value: 6.75287793084e-06
+----------------------------------
+Experiment ID: 11
+Target TF: EDS1
+Experiment Description: MB0479_EDS1_RGT1-minusLys-2-03.04.16-04.14.16-33
+T Value: 4.42371754197
+P Value: 9.86144892883e-06
+----------------------------------
+Experiment ID: 12
+Target TF: RGT1
+Experiment Description: MB0479_EDS1_RGT1-minusLys-3-03.04.16-04.14.16-34
+T Value: 3.98912695202
+P Value: 6.70487552738e-05
+----------------------------------
+Experiment ID: 27
+Target TF: RGT1
+Experiment Description: YKL038W-minusLys-1-03.04.16-04.14.16-23
+T Value: 3.73003878605
+P Value: 0.000193096137026
+----------------------------------
+Experiment ID: 12
+Target TF: EDS1
+Experiment Description: MB0479_EDS1_RGT1-minusLys-3-03.04.16-04.14.16-34
+T Value: 3.72999697327
+P Value: 0.000193120713237
+----------------------------------
+Experiment ID: 29
+Target TF: RGT1
+Experiment Description: YKL038W-minusLys-3-03.04.16-04.14.16-25
+T Value: 3.62254190642
+P Value: 0.000293973954462
+----------------------------------
+Experiment ID: 28
+Target TF: RGT1
+Experiment Description: YKL038W-minusLys-2-03.04.16-04.14.16-24
+T Value: 2.53055107612
+P Value: 0.0114119159513
+----------------------------------
+Experiment ID: 37
+Target TF: EDS1
+Experiment Description: YM7728_EDS1_LYS14-plusLys-2-03.04.16-04.14.16-10
+T Value: 1.80146430851
+P Value: 0.0716765704342
+----------------------------------
+Experiment ID: 20
+Target TF: EDS1
+Experiment Description: YBR033W-plusLys-2-03.04.16-04.14.16-2
+T Value: 1.7012410689
+P Value: 0.0889458675463
+----------------------------------
+Experiment ID: 19
+Target TF: EDS1
+Experiment Description: YBR033W-plusLys-1-03.04.16-04.14.16-1
+T Value: 1.5310883514
+P Value: 0.125796629999
+----------------------------------
+Experiment ID: 36
+Target TF: EDS1
+Experiment Description: YM7728_EDS1_LYS14-plusLys-1-03.04.16-04.14.16-9
+T Value: 1.51990937336
+P Value: 0.128583114096
+----------------------------------
+Experiment ID: 38
+Target TF: EDS1
+Experiment Description: YM7728_EDS1_LYS14-plusLys-3-03.04.16-04.14.16-11
+T Value: 1.40744160554
+P Value: 0.159344962109
+----------------------------------
+Experiment ID: 16
+Target TF: EDS1
+Experiment Description: YBR033W-minusLys-1-03.04.16-04.14.16-20
+T Value: 0.868391056987
+P Value: 0.385212683376
+----------------------------------
+Experiment ID: 33
+Target TF: EDS1
+Experiment Description: YM7728_EDS1_LYS14-minusLys-1-03.04.16-04.14.16-29
+T Value: 0.841635472268
+P Value: 0.400023414936
+----------------------------------
+Experiment ID: 17
+Target TF: EDS1
+Experiment Description: YBR033W-minusLys-2-03.04.16-04.14.16-21
+T Value: 0.798645679649
+P Value: 0.424525334358
+----------------------------------
+Experiment ID: 37
+Target TF: LYS14
+Experiment Description: YM7728_EDS1_LYS14-plusLys-2-03.04.16-04.14.16-10
+T Value: 0.761650596594
+P Value: 0.446296510806
+----------------------------------
+Experiment ID: 36
+Target TF: LYS14
+Experiment Description: YM7728_EDS1_LYS14-plusLys-1-03.04.16-04.14.16-9
+T Value: 0.646464815744
+P Value: 0.518001539099
+----------------------------------
+Experiment ID: 34
+Target TF: EDS1
+Experiment Description: YM7728_EDS1_LYS14-minusLys-2-03.04.16-04.14.16-30
+T Value: 0.577046558463
+P Value: 0.563928300595
+----------------------------------
+Experiment ID: 38
+Target TF: LYS14
+Experiment Description: YM7728_EDS1_LYS14-plusLys-3-03.04.16-04.14.16-11
+T Value: 0.472564096011
+P Value: 0.636540289024
+----------------------------------
+Experiment ID: 35
+Target TF: EDS1
+Experiment Description: YM7728_EDS1_LYS14-minusLys-3-03.04.16-04.14.16-31
+T Value: 0.444001356896
+P Value: 0.657056509114
+----------------------------------
+Experiment ID: 18
+Target TF: EDS1
+Experiment Description: YBR033W-minusLys-3-03.04.16-04.14.16-22
+T Value: 0.398701543662
+P Value: 0.690126285532
+----------------------------------
+Experiment ID: 34
+Target TF: LYS14
+Experiment Description: YM7728_EDS1_LYS14-minusLys-2-03.04.16-04.14.16-30
+T Value: 0.20077615072
+P Value: 0.840879992048
+----------------------------------
+Experiment ID: 26
+Target TF: LYS14
+Experiment Description: YDR034C-plusLys-3-03.04.16-04.14.16-8
+T Value: -0.189849182379
+P Value: 0.849433299934
+----------------------------------
+Experiment ID: 25
+Target TF: LYS14
+Experiment Description: YDR034C-plusLys-2-03.04.16-04.14.16-7
+T Value: -0.173111415778
+P Value: 0.8625692906
+----------------------------------
+Experiment ID: 24
+Target TF: LYS14
+Experiment Description: YDR034C-plusLys-1-03.04.16-04.14.16-6
+T Value: -0.0900592674222
+P Value: 0.928242925166
+----------------------------------
+Experiment ID: 35
+Target TF: LYS14
+Experiment Description: YM7728_EDS1_LYS14-minusLys-3-03.04.16-04.14.16-31
+T Value: 0.069503119976
+P Value: 0.944591305519
+----------------------------------
+Experiment ID: 22
+Target TF: LYS14
+Experiment Description: YDR034C-minusLys-2-03.04.16-04.14.16-27
+T Value: 0.060875719875
+P Value: 0.95146007384
+----------------------------------
+Experiment ID: 33
+Target TF: LYS14
+Experiment Description: YM7728_EDS1_LYS14-minusLys-1-03.04.16-04.14.16-29
+T Value: 0.040406252832
+P Value: 0.967770503283
+----------------------------------
+Experiment ID: 23
+Target TF: LYS14
+Experiment Description: YDR034C-minusLys-3-03.04.16-04.14.16-28
+T Value: -0.0349101186963
+P Value: 0.972152489065
+----------------------------------
+Experiment ID: 21
+Target TF: LYS14
+Experiment Description: YDR034C-minusLys-1-03.04.16-04.14.16-26
+T Value: 0.0306281334718
+P Value: 0.975567056124
+----------------------------------
