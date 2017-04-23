@@ -1,0 +1,22 @@
+Base Case is: 
+MB0479_EDS1_RGT1-minusLys-1-03.04.16-04.14.16-32;
+TF KO:['EDS1', 'RGT1']
+=====================================================
+
+T Profiler Output is: 
+
+Target TF: LYS14
+Experiment Description: MB0479_EDS1_RGT1-plusLys-1-03.04.16-04.14.16-12;
+t: -2.32682488938
+p: 0.0200052195631
+----------------------------------
+Target TF: EDS1
+Experiment Description: MB0479_EDS1_RGT1-plusLys-1-03.04.16-04.14.16-12;
+t: 1.76762950644
+p: 0.0771698646676
+----------------------------------
+Target TF: RGT1
+Experiment Description: MB0479_EDS1_RGT1-plusLys-1-03.04.16-04.14.16-12;
+t: 1.3382604405
+p: 0.18085845696
+----------------------------------

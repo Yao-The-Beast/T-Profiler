@@ -1,114 +1,152 @@
 ID: 1 
 Description: BY4741_CONTROL-CONTROL-1-03.04.16-04.14.16-18 
+TFs: []
 ---------------------------- 
 ID: 2 
 Description: BY4741_CONTROL-CONTROL-2-03.04.16-04.14.16-19 
+TFs: []
 ---------------------------- 
 ID: 3 
 Description: BY4741_CONTROL-CONTROL-3-03.04.16-04.14.16-38 
+TFs: []
 ---------------------------- 
 ID: 4 
 Description: BY4741-minusLys-1-03.04.16-04.14.16-35 
+TFs: []
 ---------------------------- 
 ID: 5 
 Description: BY4741-minusLys-2-03.04.16-04.14.16-36 
+TFs: []
 ---------------------------- 
 ID: 6 
 Description: BY4741-minusLys-3-03.04.16-04.14.16-37 
+TFs: []
 ---------------------------- 
 ID: 7 
 Description: BY4741-plusLys-1-03.04.16-04.14.16-15 
+TFs: []
 ---------------------------- 
 ID: 8 
 Description: BY4741-plusLys-2-03.04.16-04.14.16-16 
+TFs: []
 ---------------------------- 
 ID: 9 
 Description: BY4741-plusLys-3-03.04.16-04.14.16-17 
+TFs: []
 ---------------------------- 
 ID: 10 
 Description: MB0479_EDS1_RGT1-minusLys-1-03.04.16-04.14.16-32 
+TFs: ['EDS1', 'RGT1']
 ---------------------------- 
 ID: 11 
 Description: MB0479_EDS1_RGT1-minusLys-2-03.04.16-04.14.16-33 
+TFs: ['EDS1', 'RGT1']
 ---------------------------- 
 ID: 12 
 Description: MB0479_EDS1_RGT1-minusLys-3-03.04.16-04.14.16-34 
+TFs: ['EDS1', 'RGT1']
 ---------------------------- 
 ID: 13 
 Description: MB0479_EDS1_RGT1-plusLys-1-03.04.16-04.14.16-12 
+TFs: ['EDS1', 'RGT1']
 ---------------------------- 
 ID: 14 
 Description: MB0479_EDS1_RGT1-plusLys-2-03.04.16-04.14.16-13 
+TFs: ['EDS1', 'RGT1']
 ---------------------------- 
 ID: 15 
 Description: MB0479_EDS1_RGT1-plusLys-3-03.04.16-04.14.16-14 
+TFs: ['EDS1', 'RGT1']
 ---------------------------- 
 ID: 16 
 Description: YBR033W-minusLys-1-03.04.16-04.14.16-20 
+TFs: ['EDS1']
 ---------------------------- 
 ID: 17 
 Description: YBR033W-minusLys-2-03.04.16-04.14.16-21 
+TFs: ['EDS1']
 ---------------------------- 
 ID: 18 
 Description: YBR033W-minusLys-3-03.04.16-04.14.16-22 
+TFs: ['EDS1']
 ---------------------------- 
 ID: 19 
 Description: YBR033W-plusLys-1-03.04.16-04.14.16-1 
+TFs: ['EDS1']
 ---------------------------- 
 ID: 20 
 Description: YBR033W-plusLys-2-03.04.16-04.14.16-2 
+TFs: ['EDS1']
 ---------------------------- 
 ID: 21 
 Description: YDR034C-minusLys-1-03.04.16-04.14.16-26 
+TFs: ['LYS14']
 ---------------------------- 
 ID: 22 
 Description: YDR034C-minusLys-2-03.04.16-04.14.16-27 
+TFs: ['LYS14']
 ---------------------------- 
 ID: 23 
 Description: YDR034C-minusLys-3-03.04.16-04.14.16-28 
+TFs: ['LYS14']
 ---------------------------- 
 ID: 24 
 Description: YDR034C-plusLys-1-03.04.16-04.14.16-6 
+TFs: ['LYS14']
 ---------------------------- 
 ID: 25 
 Description: YDR034C-plusLys-2-03.04.16-04.14.16-7 
+TFs: ['LYS14']
 ---------------------------- 
 ID: 26 
 Description: YDR034C-plusLys-3-03.04.16-04.14.16-8 
+TFs: ['LYS14']
 ---------------------------- 
 ID: 27 
 Description: YKL038W-minusLys-1-03.04.16-04.14.16-23 
+TFs: ['RGT1']
 ---------------------------- 
 ID: 28 
 Description: YKL038W-minusLys-2-03.04.16-04.14.16-24 
+TFs: ['RGT1']
 ---------------------------- 
 ID: 29 
 Description: YKL038W-minusLys-3-03.04.16-04.14.16-25 
+TFs: ['RGT1']
 ---------------------------- 
 ID: 30 
 Description: YKL038W-plusLys-1-03.04.16-04.14.16-3 
+TFs: ['RGT1']
 ---------------------------- 
 ID: 31 
 Description: YKL038W-plusLys-2-03.04.16-04.14.16-4 
+TFs: ['RGT1']
 ---------------------------- 
 ID: 32 
 Description: YKL038W-plusLys-3-03.04.16-04.14.16-5 
+TFs: ['RGT1']
 ---------------------------- 
 ID: 33 
 Description: YM7728_EDS1_LYS14-minusLys-1-03.04.16-04.14.16-29 
+TFs: ['EDS1', 'LYS14']
 ---------------------------- 
 ID: 34 
 Description: YM7728_EDS1_LYS14-minusLys-2-03.04.16-04.14.16-30 
+TFs: ['EDS1', 'LYS14']
 ---------------------------- 
 ID: 35 
 Description: YM7728_EDS1_LYS14-minusLys-3-03.04.16-04.14.16-31 
+TFs: ['EDS1', 'LYS14']
 ---------------------------- 
 ID: 36 
 Description: YM7728_EDS1_LYS14-plusLys-1-03.04.16-04.14.16-9 
+TFs: ['EDS1', 'LYS14']
 ---------------------------- 
 ID: 37 
 Description: YM7728_EDS1_LYS14-plusLys-2-03.04.16-04.14.16-10 
+TFs: ['EDS1', 'LYS14']
 ---------------------------- 
 ID: 38 
 Description: YM7728_EDS1_LYS14-plusLys-3-03.04.16-04.14.16-11 
+TFs: ['EDS1', 'LYS14']
 ---------------------------- 

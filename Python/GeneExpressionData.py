@@ -147,6 +147,30 @@ def processExperiments_2(experiments, nameDict, targetGeneList):
     return experiments
 
 
+# normalize gene expression value from 0 to 10
+def normalize_data(experiments, newMin, newMax):
+    for key in experiments[0].genes_expressionValue.keys():
+        row = [x.genes_expressionValue[key] for x in experiments]
+        max_ = max(row)
+        min_ = min(row)
+        if max_ == min_:
+            continue;
+        for (index, thisExp) in enumerate(experiments):
+            x = experiments[index].genes_expressionValue[key]
+            experiments[index].genes_expressionValue[key] = (newMax - newMin) / (max_ - min_) * (x - min_) + newMin
+    return experiments
+
+def normalize_data_2(experiments, baseIndex):
+    base = experiments[baseIndex[0]]
+    for (index, thisExp) in enumerate(experiments):
+        if index in baseIndex:
+            continue;
+        for key in thisExp.genes_expressionValue.keys():
+            if base.genes_expressionValue[key] == 0:
+                continue;
+            experiments[index].genes_expressionValue[key] = experiments[index].genes_expressionValue[key] / base.genes_expressionValue[key]
+    return experiments
+
 # USE THIS FUNCTION !
 # Output a txt file that contains the description of all the experiments
 # it is done by calling display(experiments)
@@ -156,6 +180,7 @@ def summarizeExperiments(experiments, outputFileName):
         outputLine = ""
         outputLine += ("ID: " + str(thisExp.id) + " \n")
         outputLine += ("Description: " + str(thisExp.description) + " \n")
+        outputLine += ("TFs: " + str(thisExp.TF) + "\n")
         outputLine += "---------------------------- \n"
         f.write(outputLine)
     f.close()
@@ -169,18 +194,18 @@ def processExperiments(dataFileName, nameDict, targetGeneList):
     return experiments
 
 # USE THIS FUNCTION !!
-# Arguments: allExperiments, [baseCaseExperimentsID]
+# Arguments: allExperiments, [baseCaseExperimentsID], [targetExperimentsID]
 # We extract the base case experiments from all the experiments based on the ID
 # Then we average the value among these experiments to generate an averaged base experiment
-# Return two parts [averagedBaseExperiment] [targetExperiment]
-def divideExperiments_base_target(experiments, baseCaseExpIDs):
+# Return two parts [averagedBaseExperiment] [averagedTargetExperiment]
+def divideExperiments_base_target(experiments, baseCaseExpIDs, targetExpIDs):
     baseExperiments = []
     targetExperiments = []
     # find the base case experiments based on IDs
     for thisExperiment in experiments:
          if thisExperiment.id in baseCaseExpIDs:
              baseExperiments.append(thisExperiment)
-         else:
+         elif thisExperiment.id in targetExpIDs:
              targetExperiments.append(thisExperiment)
 
     # average the base experiments
@@ -189,6 +214,7 @@ def divideExperiments_base_target(experiments, baseCaseExpIDs):
         if index == 0:
             averagedBaseExperiment.genes_expressionValue = thisBaseExperiment.genes_expressionValue
             averagedBaseExperiment.description = thisBaseExperiment.description  + ";\n"
+            averagedBaseExperiment.TF = thisBaseExperiment.TF
         else:
             for (key, value) in thisBaseExperiment.genes_expressionValue.items():
                 averagedBaseExperiment.genes_expressionValue[key] += value
@@ -197,4 +223,19 @@ def divideExperiments_base_target(experiments, baseCaseExpIDs):
     for (key, value) in averagedBaseExperiment.genes_expressionValue.items():
         averagedBaseExperiment.genes_expressionValue[key] = value / len(baseExperiments)
 
-    return [averagedBaseExperiment], targetExperiments
+    # average the target experiments
+    averagedTargetExperiment = Experiment([], {}, "", "", -2)
+    for (index, thisTargetExperiment) in enumerate(targetExperiments):
+        if index == 0:
+            averagedTargetExperiment.genes_expressionValue = thisTargetExperiment.genes_expressionValue
+            averagedTargetExperiment.description = thisTargetExperiment.description  + ";\n"
+            averagedTargetExperiment.TF = thisTargetExperiment.TF
+        else:
+            for (key, value) in thisTargetExperiment.genes_expressionValue.items():
+                averagedTargetExperiment.genes_expressionValue[key] += value
+            averagedTargetExperiment.description += (thisTargetExperiment.description +  ";\n")
+
+    for (key, value) in averagedTargetExperiment.genes_expressionValue.items():
+        averagedTargetExperiment.genes_expressionValue[key] = value / len(targetExperiments)
+
+    return [averagedBaseExperiment], [averagedTargetExperiment]

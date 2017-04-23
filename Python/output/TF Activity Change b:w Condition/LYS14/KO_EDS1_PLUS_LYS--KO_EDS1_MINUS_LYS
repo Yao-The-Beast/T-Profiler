@@ -1,0 +1,22 @@
+Base Case is: 
+YBR033W-minusLys-1-03.04.16-04.14.16-20;
+TF KO:['EDS1']
+=====================================================
+
+T Profiler Output is: 
+
+Target TF: LYS14
+Experiment Description: YBR033W-plusLys-1-03.04.16-04.14.16-1;
+t: -1.30922495839
+p: 0.190504353461
+----------------------------------
+Target TF: EDS1
+Experiment Description: YBR033W-plusLys-1-03.04.16-04.14.16-1;
+t: 0.559727254789
+p: 0.575684740515
+----------------------------------
+Target TF: RGT1
+Experiment Description: YBR033W-plusLys-1-03.04.16-04.14.16-1;
+t: 0.495249973181
+p: 0.62044038956
+----------------------------------

@@ -1,0 +1,22 @@
+Base Case is: 
+YDR034C-plusLys-1-03.04.16-04.14.16-6;
+TF KO:['LYS14']
+=====================================================
+
+T Profiler Output is: 
+
+Target TF: LYS14
+Experiment Description: BY4741_CONTROL-CONTROL-1-03.04.16-04.14.16-18;
+t: 1.53748372268
+p: 0.124223828112
+----------------------------------
+Target TF: EDS1
+Experiment Description: BY4741_CONTROL-CONTROL-1-03.04.16-04.14.16-18;
+t: -0.19477900243
+p: 0.845572080516
+----------------------------------
+Target TF: RGT1
+Experiment Description: BY4741_CONTROL-CONTROL-1-03.04.16-04.14.16-18;
+t: 0.0458112785509
+p: 0.963462083962
+----------------------------------

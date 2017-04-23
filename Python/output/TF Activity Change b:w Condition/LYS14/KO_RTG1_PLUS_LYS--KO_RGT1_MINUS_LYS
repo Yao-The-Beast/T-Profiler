@@ -1,0 +1,22 @@
+Base Case is: 
+YKL038W-minusLys-1-03.04.16-04.14.16-23;
+TF KO:['RGT1']
+=====================================================
+
+T Profiler Output is: 
+
+Target TF: RGT1
+Experiment Description: YKL038W-plusLys-1-03.04.16-04.14.16-3;
+t: 1.46956337244
+p: 0.141728413901
+----------------------------------
+Target TF: EDS1
+Experiment Description: YKL038W-plusLys-1-03.04.16-04.14.16-3;
+t: 0.632981310516
+p: 0.526768101886
+----------------------------------
+Target TF: LYS14
+Experiment Description: YKL038W-plusLys-1-03.04.16-04.14.16-3;
+t: -0.27000777328
+p: 0.787162839802
+----------------------------------
